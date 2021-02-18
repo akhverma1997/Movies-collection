@@ -1,0 +1,17 @@
+<ul class="slides">
+    <div *ngFor="let images of ImagesStore; let i = index">
+    <input type="radio" name="radio-btn" id="img-{{i + 1}}" [checked]="i==0?true:false"/>
+    <li class="slide-container">
+		<div class="slide">
+			<img src="{{images.url}}" />
+        </div>
+		<div class="nav">
+			<label for="img-{{i==0?5:i}}" class="prev">&#x2039;</label>
+			<label for="img-{{(i+1)==5?1:i+2}}" class="next">&#x203a;</label>
+		</div>
+    </li>
+    </div>
+    <li class="nav-dots" >
+      <label *ngFor="let images of ImagesStore; let i = index;" for="img-{{i+1}}" class="nav-dot" id="img-dot-{{i+1}}"></label>
+    </li>
+</ul>

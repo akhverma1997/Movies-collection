@@ -1,0 +1,113 @@
+.second-section {
+    padding : 20px 7px 7px 7px;
+    background: linear-gradient(to bottom, rgba(12,4,48,0.88) 4%,rgba(0,0,0,1) 65%);
+    color : white;
+}
+
+.first-section {
+    padding : 7px ;
+    border-bottom: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(12,4,48,0.88);
+}
+
+.first-section h1 {
+    color : white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 800;
+    padding : 14px 14px 20px 14px;
+    text-align: right;
+    width : -webkit-fill-available;
+}
+
+.first-section h2 {
+    padding : 14px 14px 20px 14px;
+    color : white;
+    text-align: right;
+    width : 55%;
+
+}
+
+.first-section h2:hover{
+    color : #f7631b;
+}
+
+.first-section h2 i {
+    padding : 0px 7px;
+}
+
+.first-section h1 a {
+    padding-left : 20px;
+}
+
+.second-section {
+    padding-bottom: 35px;
+}
+
+.second-section p {
+    padding : 14px 14px 14px 0px;
+}
+
+.second-section .inside-section {
+    border-bottom : 2px solid grey;
+}
+
+.second-section .inside-section h2 {
+    padding : 7px 7px 7px 0px;
+}
+
+.second-section .card p {
+    font-size: x-large;
+    justify-content: space-between;
+    font-style: justify;
+    color : white;
+}
+
+
+.second-section .card {
+    box-shadow: 0px 8px 8px 8px rgb(255 255 255 / 30%);
+    max-width: 335px;
+    margin: auto;
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid white;
+  }
+  
+  .second-section .card h1 {
+    padding : 14px 7px 14px 7px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+  }
+
+  .second-section .card .title {
+    color: grey;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 750;
+  }
+  
+  .second-section .card  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color:#000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+    height : 28px;
+    font-weight: bold;
+    border: 1px solid white;
+  }
+  
+  .second-section .card  button:hover {
+    opacity: 0.7;
+    background-color: white;
+    color : black;
+  }

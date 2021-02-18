@@ -1,0 +1,20 @@
+
+    <div class="first-section">
+        <h1>Confirmation</h1>
+        <h2><i class="fa fa-angle-double-left"></i><a href="/listing">Back to Home</a></h2>
+    </div>
+    <div class="second-section">
+        <div class="card">
+            <h1>{{movies.name}}</h1>
+            <p class="title">Storyline</p>
+            <p>{{movies.description}}</p>
+            <p class="title">Price</p>
+            <p><span>&#8377;</span> {{movies.price}}</p>
+            <p class="title">Shipping Price</p>
+            <p><span>&#8377;</span> {{movies.shippingprice}}</p>
+            <p class="title">Total</p>
+            <p><span>&#8377;</span> {{movies.price + movies.shippingprice}}</p>
+            <p><button type="button" (click)="this.router.navigate(['/checkout']);">Purchase</button></p>
+          </div>
+    </div>
+

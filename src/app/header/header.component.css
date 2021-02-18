@@ -1,0 +1,107 @@
+.top-section {
+    display: inline-block;
+    width : 100%;
+    background-color: #0C0430;   
+    color : #FFF;
+    margin-bottom: -8px;
+}
+
+.top-section .first-half {
+    float : left;
+    width : fit-content;
+    height :fit-content;
+    padding : 27px 32px 27px 32px;
+}
+
+.top-section .first-half h2 a:hover {
+    color : #f7631b;
+}
+
+.top-section .second-half {
+    float : right;
+    width : fit-content;
+    height: fit-content;
+    padding : 11px 22px 11px 22px;
+}
+
+.top-section .second-half .navigation {
+    list-style-type: none;
+}
+
+.top-section .second-half .navigation li {
+    background-color: grey;
+    border-radius: 50%;
+    display: inline;
+    padding : 8.5px;
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+    margin : 10px 20px 10px 20px;
+}
+
+.banner-section {
+    height: fit-content;
+    width: inherit;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-international-film-festival-atmospheric-cool-theater-banner-image_195079.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner-section video {
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+    z-index : 1;
+}
+
+.banner-section .mygradient {
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+    z-index : 2;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.banner-section .banner-text {
+    height: fit-content;
+    color :darkorange;
+    padding : 80px 67px 100px 33.5px;
+    position: relative; 
+    z-index : 3;
+    
+}
+
+
+.banner-section .banner-text p {
+    padding : 20px 7px 27px 0px;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+    width: fit-content;
+}
+
+.banner-section .banner-text button {
+    background-color:#f7631b;
+    height : 44px;
+    width : 134px;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 7px;
+    color : #fff;
+    text-transform: uppercase;
+}
+
+.banner-section .banner-text button:hover {
+    background-color: #fff;
+    color : #f7631b;
+    cursor: pointer;
+}

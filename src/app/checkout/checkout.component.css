@@ -1,0 +1,181 @@
+.checkout {
+    padding : 7px 7px 27px 7px;
+    color : white;
+    background: linear-gradient(to bottom, rgba(12,4,48,0.88) 4%,rgba(0,0,0,1) 65%);
+}
+
+
+::placeholder {
+    color : grey;
+    font-size: 17px;
+}
+
+span {
+    color:red;
+    font-size: x-large;
+}
+
+.checkout .section-heading {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid white;
+}
+
+.checkout .section-heading h1 {
+    color : white;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 800;
+    padding : 14px 14px 20px 14px;
+    width : -webkit-fill-available;
+}
+
+.checkout .section-heading h2 {
+    padding : 14px 14px 20px 14px;
+    color : white;
+    text-align: right;
+    width : 65%;
+
+}
+
+.checkout .section-heading h2:hover{
+    color : #f7631b;
+}
+
+.checkout .section-heading h2 i {
+    padding : 0px 7px;
+}
+
+.checkout form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout .card form input {
+    width : 80%;
+    height : 27px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 17px;
+    background-color: inherit;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.checkout .card form input:focus {
+    outline: none;
+    background-color: inherit;
+}
+
+.checkout .card form select:focus {
+    outline: none;
+    background-color: inherit;
+}
+
+.checkout .card form span {
+    text-align: left;
+    margin-left: 14px;
+    margin-right: 3px;
+}
+
+.checkout .card form select {
+
+    width : 40%;
+    height : 27px;
+    float: left;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+    padding-left : 7px;
+    padding-right: 7px;
+    background-color: inherit;
+    color : white;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.checkout .card form select option {
+    appearance: none;
+    background-color: black;
+    color : white !important;
+}
+
+.checkout .card form select[name='Year'] {
+    margin-left : 7px;
+}
+
+
+input.ng-invalid.ng-touched {
+    border: 3px solid red;
+}
+
+.checkout form label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.checkout .card {
+    box-shadow: 0px 8px 8px 8px rgb(255 255 255 / 30%);
+    max-width: 335px;
+    margin: auto;
+    text-align: center;
+    padding-top : 14px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    border: 1px solid white;
+  }
+  
+  .checkout .card h1 {
+    padding : 14px 7px 14px 7px;
+    text-transform: uppercase;
+    border-bottom: 2px solid  white;
+  }
+
+  .checkout .card p {
+    font-size: x-large;
+    justify-content: space-between;
+    font-style: justify;
+    color : white;
+}
+
+  .checkout .card .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 750;
+    text-align: left !important;
+    padding : 7px 7px 14px 0px; 
+    float : left;
+  }
+  
+  .checkout .card form button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding:7px 7px 7px 7px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border : 1px solid white;
+  }
+
+  .checkout .card form button:hover {
+    background-color: white;
+    color : black;
+  }
+
+  .checkout .card form button:disabled {
+      opacity: 0.5;
+      background-color: black;
+      color : grey;
+  }
+
+ 

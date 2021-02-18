@@ -1,0 +1,19 @@
+<div class="listing">
+   <!-- <h1>MOVIE STORE <a href="/listing" >Home</a></h1>  -->
+    <div class="first-section">
+    <h1 #latest>Latest</h1>
+    </div>
+    <div class="listing-movies" *ngFor="let movies of MoviesStore">
+        <div class="card">
+            <img src="{{movies.url}}" alt="" style="width:100%">
+            <h1>{{movies.name}}</h1><br/>
+            <p class="title">Buy : <span>&#8377;</span> {{movies.price}}</p>
+            <p class="title">Rent : <span>&#8377;</span> {{movies.rentprice}}</p>
+            <p><button type="button" (click)="confirm(movies)">Purchase</button></p>
+        </div>
+    </div>
+</div>
+<!--
+<div class="second-listing">
+    <app-mycoursel></app-mycoursel>
+</div>  -->

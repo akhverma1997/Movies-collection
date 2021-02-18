@@ -1,0 +1,65 @@
+.thanks {
+    padding : 7px 20px 20px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(12,4,48,0.88) 4%,rgba(0,0,0,1) 65%);
+}
+
+.thanks .section-heading {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid white;
+    margin-bottom: 14px;
+}
+
+.thanks .section-heading h1 {
+    color : white;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 800;
+    padding : 14px 14px 20px 14px;
+    width : -webkit-fill-available;
+}
+
+.thanks .section-heading h2 {
+    padding : 14px 14px 20px 14px;
+    color : white;
+    text-align: right;
+    width : 65%;
+}
+
+.thanks .section-heading h2:hover{
+    color : #f7631b;
+}
+
+.thanks .section-heading h2 i {
+    padding : 0px 7px;
+}
+
+.thanks p {
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    color : white;
+    line-height: 34px;
+}
+
+.thanks button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding:7px 7px 7px 7px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border : 1px solid white;
+}
+
+.thanks button:hover {
+    color:#f7631b;
+    background-color: #Fff;
+    color : black;
+}
